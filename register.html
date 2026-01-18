@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+        <a href="the-lip-lap.html">Home</a>
+    </nav>
+    <!-- Add proper server -->
+    <form action="lip-lap-server" method="post">
+        <label for="surname">Surname</label>
+        <input id="surname" type="text" name="surname" placeholder="Smith">
+
+              <br>
+
+        <label for="first-name">First name</label>
+        <input id="first-name" type="text" name="first-name" placeholder="Favour">
+
+        <br>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="youremail@gmail.com">
+
+  
+        <br>
+
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age">
+
+        <br>
+
+        <label for="product">Select product</label>
+        <select name="product" id="product">
+            <option value="glosses">Lip glosses</option>
+            <option value="moisturizers">Lip moisturizers</option>
+            <option value="brighteners">lip brighteners</option>
+        </select>
+
+        <br>
+
+        <label for="text">What are your lip issues, and what do you wish to achieve with us?</label> <br>
+        <textarea name="text" id="text" rows="5" cols="50"></textarea>
+
+        <br>
+
+        <p>Clicking I accept means you've read and acepted our privacy policy</p> 
+        <input id="yes" type="radio" name="yes" value="yes">
+        <label for="yes">I accept</label>
+        <input id="no" type="radio" name="no" value="no">
+        <label for="no">I do not accept</label>
+
+        <br>
+
+        <button type="submit">Submit</button>
+        
+
+    </form>
+</body>
+</html>
